@@ -8,7 +8,7 @@ The purpose of this level of testing is to expose faults in the interaction betw
 For example, maybe a unit that reads in some data is working and passes its unit tests, and the following unit that cleans up the data once it's been read in is also working and passes its tests.
 However say the first unit outputs the data as (time_data, temperature_data) but the function that cleans the data expects input of the form (temperature_data, time_data).
 This can obviously lead to bugs.
-While the units are correct there in an error in their integration.
+While the units are correct there is an error in their integration.
 
 An example of an integration test for this case could be to supply a test data file, use these functions to read it in and clean it, and check the resulting cleaned data against what would be expected.
 If a bug like this is present then the cleaned data outputted would be very unlikely to match the expected result, and an error would be raised.
