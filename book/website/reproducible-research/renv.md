@@ -21,6 +21,12 @@ There is no guarantee that the analysis will be able to run or generate the same
 In order for research to be reproducible, the computational environment that it was conducted in must be captured in such a way that others can replicate it.
 This chapter describes a variety of methods for capturing computational environments and gives guidance on their strengths and weaknesses.
 
+In addition to the {ref}`reproducibility<rr-overview-definitions-reproducibility>` of computational environments another factor relevant to how you go about specifying a computational environment is the verifiability of the analysis performed in that environment.
+Verifiability, in this sense, refers to the ability to understand and scrutinise the analysis for correctness and appropriateness {cite:ps}`hinsen2018verifiability`.
+Narrow reproducibility where the same analysis performed on the same data produces the same result does not entail the verifiability of that analysis.
+The compute environment can constitute an inscrutable black box the internal operations of which are completely unknown and still meet the narrow definition of reproducibility.
+In many use cases however we are not aiming for narrow reproducibility but rather also verifiability, this can inform our choice of computational environment management tools, how we use them, and the formats in which we share those environments as some are better as producing both reproducibility and verifiability than others.
+
 ### What is a Computational Environment?
 
 In broad terms, a computational environment is the system where a program is run.
