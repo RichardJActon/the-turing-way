@@ -430,10 +430,10 @@ chapters:
             file: communication/blogs/blogs-webpage
           - title: Personal stories - Blogs
             file: communication/blogs/blogs-personal-stories
-      - title: Lay Summaries
+      - title: Summaries in Simple Language
         file: communication/lay-summaries
         sections:
-          - title: Personal Stories - Lay summaries
+          - title: Personal Stories - Summaries in Simple Language
             file: communication/lay-summaries/lay-summaries-personal-stories
       - title: Podcasts for Research Communication
         file: communication/podcasts
